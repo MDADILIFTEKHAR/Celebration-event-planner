@@ -1,3 +1,4 @@
+import os
 import sqlite3
 import json
 from typing import List, Optional, Dict, Any
@@ -22,6 +23,32 @@ def init_db():
         )
     """)
     conn.commit()
+
+    # Auto-seed if database is empty (e.g. on fresh Render deployment)
+    cursor.execute("SELECT COUNT(*) FROM events")
+    count = cursor.fetchone()[0]
+    if count == 0:
+        seed_path = os.path.join(os.path.dirname(__file__), "seeds.json")
+        if os.path.exists(seed_path):
+            try:
+                with open(seed_path, "r", encoding="utf-8") as f:
+                    seeds = json.load(f)
+                    for item in seeds:
+                        cursor.execute("""
+                            INSERT INTO events (id, title, celebration_type, created_at, updated_at, data)
+                            VALUES (?, ?, ?, ?, ?, ?)
+                        """, (
+                            item["id"],
+                            item["title"],
+                            item["celebration_type"],
+                            item["created_at"],
+                            item["updated_at"],
+                            json.dumps(item["data"])
+                        ))
+                conn.commit()
+            except Exception as e:
+                print(f"Warning: Failed to load seeds: {e}")
+
     conn.close()
 
 # Ensure table exists on import

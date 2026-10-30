@@ -6,7 +6,8 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+/dist/
+!frontend/dist/
 downloads/
 eggs/
 .eggs/
@@ -31,7 +32,6 @@ env/
 
 # Node / Frontend
 frontend/node_modules/
-frontend/dist/
 frontend/dist-ssr/
 frontend/.vite/
 *.local

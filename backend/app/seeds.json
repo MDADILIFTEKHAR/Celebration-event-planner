@@ -1,0 +1,939 @@
+[
+  {
+    "id": "plan-5051a353",
+    "title": "Graduation Gala",
+    "celebration_type": "graduation",
+    "created_at": "2026-10-28T00:53:21.272613",
+    "updated_at": "2026-10-28T00:53:21.272613",
+    "data": {
+      "id": "plan-5051a353",
+      "requirements": {
+        "title": "Graduation Gala",
+        "celebration_type": "graduation",
+        "event_date": "2026-11-25",
+        "start_time": "16:00",
+        "duration_hours": 4.0,
+        "location": "",
+        "guest_count": 35,
+        "budget": 1600.0,
+        "currency": "USD",
+        "venue_preference": "indoor",
+        "theme_colors": [],
+        "atmosphere": "festive and joyful",
+        "dietary_requirements": [],
+        "accessibility_requirements": [],
+        "children_attending": false,
+        "diy_preference": "balanced",
+        "special_notes": ""
+      },
+      "budget": {
+        "total_budget": 1600.0,
+        "total_allocated": 1524.0,
+        "remaining_budget": 76.0,
+        "utilization_percentage": 95.2,
+        "contingency_amount": 80.0,
+        "contingency_percentage": 5.0,
+        "is_overrun": false,
+        "overrun_amount": 0.0,
+        "category_totals": {
+          "venue": 273.6,
+          "food_beverage": 608.0,
+          "cake_dessert": 121.6,
+          "decorations": 182.4,
+          "entertainment": 152.0,
+          "photography": 60.8,
+          "invitations_favors": 45.6,
+          "contingency": 80.0
+        },
+        "items": [
+          {
+            "id": "item-93cc2af6",
+            "category": "venue",
+            "name": "Venue Space Rental & Access Permit",
+            "estimated_cost": 273.6,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "Hall / private dining room / venue rental with tables & chairs (~USD 274).",
+            "notes": "Confirm standard duration, load-in time, and trash disposal policies."
+          },
+          {
+            "id": "item-5b0f86f4",
+            "category": "food_beverage",
+            "name": "Catering, Meals & Refreshments",
+            "estimated_cost": 608.0,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "USD 17.37/guest x 35 guests (main fare, appetizers & refreshments).",
+            "notes": "Includes accommodations for dietary requirements (vegetarian, allergies)."
+          },
+          {
+            "id": "item-ba06cd84",
+            "category": "cake_dessert",
+            "name": "Celebration Cake & Specialty Desserts",
+            "estimated_cost": 121.6,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "Custom celebration cake or dessert buffet (~USD 122).",
+            "notes": "Tiered cake or cupcakes with custom theme toppers."
+          },
+          {
+            "id": "item-c3f63b0a",
+            "category": "decorations",
+            "name": "Atmosphere Decor, Centerpieces & Backdrops",
+            "estimated_cost": 182.4,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Floral arrangements and themed backdrops with thematic accents (~USD 182).",
+            "notes": "Palette coordinated with event theme and atmospheric lighting."
+          },
+          {
+            "id": "item-2131df85",
+            "category": "entertainment",
+            "name": "Sound, Music & Interactive Entertainment",
+            "estimated_cost": 152.0,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Sound system / DJ playlist / interactive group party games (~USD 152).",
+            "notes": "Custom curated playlist or live performer/entertainer."
+          },
+          {
+            "id": "item-d352f520",
+            "category": "photography",
+            "name": "Photography & Memory Keepsakes",
+            "estimated_cost": 60.8,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Event photographer or Polaroid instant memory station (~USD 61).",
+            "notes": "High-resolution digital gallery and guestbook."
+          },
+          {
+            "id": "item-680570c1",
+            "category": "invitations_favors",
+            "name": "Invitations, Stationery & Guest Favors",
+            "estimated_cost": 45.6,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Digital RSVP stationery & departure party favors (~USD 46).",
+            "notes": "Custom designed digital invitations and token guest favors."
+          },
+          {
+            "id": "item-518b8ebc",
+            "category": "contingency",
+            "name": "Contingency Reserve & Unforeseen Needs",
+            "estimated_cost": 80.0,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "Safety buffer allocated at 5% of total budget.",
+            "notes": "Reserved for unexpected last-minute additions, delivery fees, or gratuity."
+          }
+        ],
+        "assumptions": [
+          "Catering is estimated at USD 17.37 per person.",
+          "Contingency buffer set to 5% (USD 80.00).",
+          "Costs are calculated transparently and can be edited anytime."
+        ]
+      },
+      "timeline": [
+        {
+          "id": "time-9229d80a",
+          "time_offset_minutes": -90,
+          "display_time": "14:30",
+          "duration_minutes": 60,
+          "title": "Venue Access & Setup Phase",
+          "description": "Host and setup team arrive. Arrange tables, place settings, balloon arches, and backdrop.",
+          "category": "setup",
+          "is_milestone": false
+        },
+        {
+          "id": "time-55560b4c",
+          "time_offset_minutes": -30,
+          "display_time": "15:30",
+          "duration_minutes": 30,
+          "title": "Audio & Vendor Readiness Check",
+          "description": "Test sound system, verify catering arrival, chill beverages, and light decorative candles.",
+          "category": "setup",
+          "is_milestone": false
+        },
+        {
+          "id": "time-b41bfbb3",
+          "time_offset_minutes": 0,
+          "display_time": "16:00",
+          "duration_minutes": 30,
+          "title": "Guest Arrival & Welcome Refreshments",
+          "description": "Welcome guests at entrance, direct to coat area/guestbook, serve welcome drinks and light canap\u00e9s.",
+          "category": "arrival",
+          "is_milestone": true
+        },
+        {
+          "id": "time-3e90233a",
+          "time_offset_minutes": 30,
+          "display_time": "16:30",
+          "duration_minutes": 45,
+          "title": "Opening Welcome & Social Mingling",
+          "description": "Warm welcome toast by the host, introductory group activities or photo-booth photo rounds.",
+          "category": "entertainment",
+          "is_milestone": false
+        },
+        {
+          "id": "time-17af57f2",
+          "time_offset_minutes": 75,
+          "display_time": "17:15",
+          "duration_minutes": 60,
+          "title": "Main Meal & Catering Service",
+          "description": "Buffet, plated dinner or party food stations open. Accommodate special dietary preferences.",
+          "category": "dining",
+          "is_milestone": true
+        },
+        {
+          "id": "time-fc1b5d57",
+          "time_offset_minutes": 150,
+          "display_time": "18:30",
+          "duration_minutes": 30,
+          "title": "Celebration Highlight, Cake Cutting & Speeches",
+          "description": "Gather all guests around the centerpiece. Deliver heartwarming toasts and cut the celebration cake.",
+          "category": "highlight",
+          "is_milestone": true
+        },
+        {
+          "id": "time-74c2fa2d",
+          "time_offset_minutes": 180,
+          "display_time": "19:00",
+          "duration_minutes": 30,
+          "title": "High-Energy Music, Dancing & Games",
+          "description": "Curated playlist, group games, open dance floor, or guest mingling with desserts and coffee.",
+          "category": "entertainment",
+          "is_milestone": false
+        },
+        {
+          "id": "time-fa469b2a",
+          "time_offset_minutes": 220,
+          "display_time": "19:40",
+          "duration_minutes": 20,
+          "title": "Farewell Remarks & Favor Distribution",
+          "description": "Host thanks guests for coming, distribute celebration favors and keepsake photo prints.",
+          "category": "departure",
+          "is_milestone": true
+        },
+        {
+          "id": "time-27e69858",
+          "time_offset_minutes": 240,
+          "display_time": "20:00",
+          "duration_minutes": 45,
+          "title": "Cleanup & Venue Handover",
+          "description": "Pack up personal decor, collect gifts, clear trash, and complete venue inspection with manager.",
+          "category": "cleanup",
+          "is_milestone": false
+        }
+      ],
+      "checklist": [
+        {
+          "id": "task-923c4674",
+          "task": "Finalize guest list and confirm maximum capacity with venue",
+          "category": "guests",
+          "priority": "high",
+          "due_offset_days": 45,
+          "due_date": "2026-10-11",
+          "status": "todo",
+          "notes": "Ensure room for seated dining and active zones."
+        },
+        {
+          "id": "task-7c595464",
+          "task": "Book indoor venue space and confirm reservation deposit",
+          "category": "venue",
+          "priority": "high",
+          "due_offset_days": 40,
+          "due_date": "2026-10-16",
+          "status": "todo",
+          "notes": "Ask for access hours, power outlets, and cleanup rules."
+        },
+        {
+          "id": "task-4ec4af6e",
+          "task": "Design and dispatch digital or printed celebration invitations",
+          "category": "guests",
+          "priority": "high",
+          "due_offset_days": 35,
+          "due_date": "2026-10-21",
+          "status": "todo",
+          "notes": "Include RSVP deadline (at least 2 weeks before event) and dietary prompt."
+        },
+        {
+          "id": "task-8d091c5e",
+          "task": "Review catering menu options and accommodate dietary preferences",
+          "category": "catering",
+          "priority": "high",
+          "due_offset_days": 30,
+          "due_date": "2026-10-26",
+          "status": "todo",
+          "notes": "Confirm vegetarian, vegan, and allergy safety accommodations."
+        },
+        {
+          "id": "task-c97bc8ea",
+          "task": "Order celebration centerpiece cake and dessert assortments",
+          "category": "catering",
+          "priority": "medium",
+          "due_offset_days": 25,
+          "due_date": "2026-10-31",
+          "status": "todo",
+          "notes": "Specify theme design, cake flavors, and pickup/delivery window."
+        },
+        {
+          "id": "task-2c98dffa",
+          "task": "Curate celebration music playlist or confirm performer/DJ details",
+          "category": "entertainment",
+          "priority": "medium",
+          "due_offset_days": 21,
+          "due_date": "2026-11-04",
+          "status": "todo",
+          "notes": "Select arrival, dining, toast, and high-energy dance tracks."
+        },
+        {
+          "id": "task-1741c862",
+          "task": "Audit RSVPs and compile final headcount & seating chart",
+          "category": "guests",
+          "priority": "high",
+          "due_offset_days": 14,
+          "due_date": "2026-11-11",
+          "status": "todo",
+          "notes": "Directly follow up with any outstanding pending invitees."
+        },
+        {
+          "id": "task-e27c6099",
+          "task": "Purchase themed decorations, table runners, and lighting supplies",
+          "category": "decor",
+          "priority": "medium",
+          "due_offset_days": 10,
+          "due_date": "2026-11-15",
+          "status": "todo",
+          "notes": "Match atmosphere 'festive and joyful' and color accents."
+        },
+        {
+          "id": "task-c71fb3ed",
+          "task": "Send final guaranteed attendance number to catering team",
+          "category": "catering",
+          "priority": "high",
+          "due_offset_days": 7,
+          "due_date": "2026-11-18",
+          "status": "todo",
+          "notes": "Prevent food shortage or costly over-ordering."
+        },
+        {
+          "id": "task-61db19e8",
+          "task": "Assemble guest favor bags, photo props, and print schedule notes",
+          "category": "logistics",
+          "priority": "low",
+          "due_offset_days": 3,
+          "due_date": "2026-11-22",
+          "status": "todo",
+          "notes": "Designate a secure storage box for event transport."
+        },
+        {
+          "id": "task-e3c35561",
+          "task": "Pack celebration emergency kit (scissors, tape, chargers, safety pins)",
+          "category": "logistics",
+          "priority": "medium",
+          "due_offset_days": 1,
+          "due_date": "2026-11-24",
+          "status": "todo",
+          "notes": "Essential for quick troubleshooting on event day."
+        },
+        {
+          "id": "task-7a5119fe",
+          "task": "Execute event day timeline: supervise setup, welcome guests, enjoy!",
+          "category": "logistics",
+          "priority": "high",
+          "due_offset_days": 0,
+          "due_date": "2026-11-25",
+          "status": "todo",
+          "notes": "Assign trusted co-host to help manage timings."
+        }
+      ],
+      "guests": [
+        {
+          "id": "guest-895d7901",
+          "name": "Maya Lin",
+          "rsvp_status": "attending",
+          "plus_ones": 1,
+          "dietary_requirements": [],
+          "accessibility_needs": "Prefers ground-floor seating",
+          "is_child": false
+        },
+        {
+          "id": "guest-fad0882c",
+          "name": "Carlos Rivera",
+          "rsvp_status": "attending",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-0ae3e39a",
+          "name": "Aisha Khan",
+          "rsvp_status": "attending",
+          "plus_ones": 1,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-afa0b168",
+          "name": "Liam & Noah O'Connor",
+          "rsvp_status": "attending",
+          "plus_ones": 2,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": true
+        },
+        {
+          "id": "guest-8a0bb95d",
+          "name": "Sophie Dubois",
+          "rsvp_status": "tentative",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-b7df3961",
+          "name": "Jordan Smith",
+          "rsvp_status": "attending",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-68b557b4",
+          "name": "Elena Rostova",
+          "rsvp_status": "invited",
+          "plus_ones": 1,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-c57be7b7",
+          "name": "Marcus Vance",
+          "rsvp_status": "declined",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        }
+      ],
+      "recommendations": [
+        {
+          "id": "rec-08351c58",
+          "category": "theme",
+          "title": "Future Bright & Academy Midnight",
+          "description": "Navy blue, metallic gold/silver, custom milestone banners, and graduation cap photo elements.",
+          "reason": "Proudly celebrates academic achievement with vibrant energy and plenty of photo-ready corners.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": true
+        },
+        {
+          "id": "rec-78275a0b",
+          "category": "food_drink",
+          "title": "Interactive Food Stations / Hot Buffet",
+          "description": "Two warm entr\u00e9e selections (e.g., roasted chicken breast and artisan pasta) accompanied by fresh seasonal salads and signature mocktail/cocktail.",
+          "reason": "At USD 45.7/guest, buffet service delivers hot, substantial meals while allowing easy accommodation of dietary preferences.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": false
+        },
+        {
+          "id": "rec-5490e0e3",
+          "category": "decorations",
+          "title": "Statement Welcome Arch & Coordinated Tablescapes",
+          "description": "Professional floral arch, custom laser-cut name sign, satin table runners, and low-profile floral centerpieces.",
+          "reason": "Creates an unforgettable first impression as guests enter the venue, with zero setup stress on event morning.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": false
+        },
+        {
+          "id": "rec-e81d0765",
+          "category": "activities",
+          "title": "Curated Memory Timeline & Crowd-Pleaser Music",
+          "description": "Interactive Polaroid guestbook with personalized notes, custom celebration trivia, and a transition to high-energy dance floor.",
+          "reason": "Builds emotional connection and creates lasting tangible mementos of the celebration.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": true
+        }
+      ],
+      "identified_constraints": [],
+      "feasibility_flags": [],
+      "alternatives": [],
+      "ai_mode_used": "deterministic_engine",
+      "created_at": "2026-10-28T00:53:21.272613",
+      "updated_at": "2026-10-28T00:53:21.272613"
+    }
+  },
+  {
+    "id": "plan-ab920a84",
+    "title": "Graduation Gala",
+    "celebration_type": "graduation",
+    "created_at": "2026-10-28T00:55:33.771702",
+    "updated_at": "2026-10-28T01:30:02.397164",
+    "data": {
+      "id": "plan-ab920a84",
+      "requirements": {
+        "title": "Graduation Gala",
+        "celebration_type": "graduation",
+        "event_date": "2026-11-25",
+        "start_time": "16:00",
+        "duration_hours": 4.0,
+        "location": "",
+        "guest_count": 35,
+        "budget": 1280.0,
+        "currency": "USD",
+        "venue_preference": "indoor",
+        "theme_colors": [],
+        "atmosphere": "festive and joyful",
+        "dietary_requirements": [],
+        "accessibility_requirements": [],
+        "children_attending": false,
+        "diy_preference": "balanced",
+        "special_notes": ""
+      },
+      "budget": {
+        "total_budget": 1280.0,
+        "total_allocated": 1280.01,
+        "remaining_budget": -0.01,
+        "utilization_percentage": 100.0,
+        "contingency_amount": 102.4,
+        "contingency_percentage": 8.0,
+        "is_overrun": true,
+        "overrun_amount": 0.01,
+        "category_totals": {
+          "venue": 273.6,
+          "food_beverage": 608.0,
+          "cake_dessert": 121.6,
+          "decorations": 72.17,
+          "entertainment": 60.14,
+          "photography": 24.06,
+          "invitations_favors": 18.04,
+          "contingency": 102.4
+        },
+        "items": [
+          {
+            "id": "item-4975032f",
+            "category": "venue",
+            "name": "Venue Space Rental & Access Permit",
+            "estimated_cost": 273.6,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "Hall / private dining room / venue rental with tables & chairs (~USD 274).",
+            "notes": "Confirm standard duration, load-in time, and trash disposal policies."
+          },
+          {
+            "id": "item-e3e011cc",
+            "category": "food_beverage",
+            "name": "Catering, Meals & Refreshments",
+            "estimated_cost": 608.0,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "USD 17.37/guest x 35 guests.",
+            "notes": "Includes accommodations for dietary requirements (vegetarian, allergies)."
+          },
+          {
+            "id": "item-4a89390b",
+            "category": "cake_dessert",
+            "name": "Celebration Cake & Specialty Desserts",
+            "estimated_cost": 121.6,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "Custom celebration cake or dessert buffet (~USD 122).",
+            "notes": "Tiered cake or cupcakes with custom theme toppers."
+          },
+          {
+            "id": "item-cf1d1202",
+            "category": "decorations",
+            "name": "Atmosphere Decor, Centerpieces & Backdrops",
+            "estimated_cost": 72.17,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Reallocated proportionally (40% of original).",
+            "notes": "Palette coordinated with event theme and atmospheric lighting."
+          },
+          {
+            "id": "item-c5a882d5",
+            "category": "entertainment",
+            "name": "Sound, Music & Interactive Entertainment",
+            "estimated_cost": 60.14,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Reallocated proportionally (40% of original).",
+            "notes": "Custom curated playlist or live performer/entertainer."
+          },
+          {
+            "id": "item-b4c4330d",
+            "category": "photography",
+            "name": "Photography & Memory Keepsakes",
+            "estimated_cost": 24.06,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Reallocated proportionally (40% of original).",
+            "notes": "High-resolution digital gallery and guestbook."
+          },
+          {
+            "id": "item-2a6f0429",
+            "category": "invitations_favors",
+            "name": "Invitations, Stationery & Guest Favors",
+            "estimated_cost": 18.04,
+            "actual_cost": null,
+            "is_mandatory": false,
+            "assumption": "Reallocated proportionally (40% of original).",
+            "notes": "Custom designed digital invitations and token guest favors."
+          },
+          {
+            "id": "item-76479ee6",
+            "category": "contingency",
+            "name": "Contingency Reserve & Unforeseen Needs",
+            "estimated_cost": 102.4,
+            "actual_cost": null,
+            "is_mandatory": true,
+            "assumption": "Adjusted safety reserve to 8% (102.40).",
+            "notes": "Reserved for unexpected last-minute additions, delivery fees, or gratuity."
+          }
+        ],
+        "assumptions": [
+          "Catering is estimated at USD 17.37 per person.",
+          "Contingency buffer set to 5% (USD 80.00).",
+          "Costs are calculated transparently and can be edited anytime.",
+          "Budget adjusted to 1280.00. Mandatory expenses preserved."
+        ]
+      },
+      "timeline": [
+        {
+          "id": "time-c95c78dd",
+          "time_offset_minutes": -90,
+          "display_time": "14:30",
+          "duration_minutes": 60,
+          "title": "Venue Access & Setup Phase",
+          "description": "Host and setup team arrive. Arrange tables, place settings, balloon arches, and backdrop.",
+          "category": "setup",
+          "is_milestone": false
+        },
+        {
+          "id": "time-c01c0fe5",
+          "time_offset_minutes": -30,
+          "display_time": "15:30",
+          "duration_minutes": 30,
+          "title": "Audio & Vendor Readiness Check",
+          "description": "Test sound system, verify catering arrival, chill beverages, and light decorative candles.",
+          "category": "setup",
+          "is_milestone": false
+        },
+        {
+          "id": "time-20b0f0fd",
+          "time_offset_minutes": 0,
+          "display_time": "16:00",
+          "duration_minutes": 30,
+          "title": "Guest Arrival & Welcome Refreshments",
+          "description": "Welcome guests at entrance, direct to coat area/guestbook, serve welcome drinks and light canap\u00e9s.",
+          "category": "arrival",
+          "is_milestone": true
+        },
+        {
+          "id": "time-62183b8c",
+          "time_offset_minutes": 30,
+          "display_time": "16:30",
+          "duration_minutes": 45,
+          "title": "Opening Welcome & Social Mingling",
+          "description": "Warm welcome toast by the host, introductory group activities or photo-booth photo rounds.",
+          "category": "entertainment",
+          "is_milestone": false
+        },
+        {
+          "id": "time-cdea9de1",
+          "time_offset_minutes": 75,
+          "display_time": "17:15",
+          "duration_minutes": 60,
+          "title": "Main Meal & Catering Service",
+          "description": "Buffet, plated dinner or party food stations open. Accommodate special dietary preferences.",
+          "category": "dining",
+          "is_milestone": true
+        },
+        {
+          "id": "time-96da58e0",
+          "time_offset_minutes": 150,
+          "display_time": "18:30",
+          "duration_minutes": 30,
+          "title": "Celebration Highlight, Cake Cutting & Speeches",
+          "description": "Gather all guests around the centerpiece. Deliver heartwarming toasts and cut the celebration cake.",
+          "category": "highlight",
+          "is_milestone": true
+        },
+        {
+          "id": "time-9c23a93c",
+          "time_offset_minutes": 180,
+          "display_time": "19:00",
+          "duration_minutes": 30,
+          "title": "High-Energy Music, Dancing & Games",
+          "description": "Curated playlist, group games, open dance floor, or guest mingling with desserts and coffee.",
+          "category": "entertainment",
+          "is_milestone": false
+        },
+        {
+          "id": "time-86b60c4f",
+          "time_offset_minutes": 220,
+          "display_time": "19:40",
+          "duration_minutes": 20,
+          "title": "Farewell Remarks & Favor Distribution",
+          "description": "Host thanks guests for coming, distribute celebration favors and keepsake photo prints.",
+          "category": "departure",
+          "is_milestone": true
+        },
+        {
+          "id": "time-c11d37d7",
+          "time_offset_minutes": 240,
+          "display_time": "20:00",
+          "duration_minutes": 45,
+          "title": "Cleanup & Venue Handover",
+          "description": "Pack up personal decor, collect gifts, clear trash, and complete venue inspection with manager.",
+          "category": "cleanup",
+          "is_milestone": false
+        }
+      ],
+      "checklist": [
+        {
+          "id": "task-c869fd74",
+          "task": "Finalize guest list and confirm maximum capacity with venue",
+          "category": "guests",
+          "priority": "high",
+          "due_offset_days": 45,
+          "due_date": "2026-10-11",
+          "status": "todo",
+          "notes": "Ensure room for seated dining and active zones."
+        },
+        {
+          "id": "task-3e419f24",
+          "task": "Book indoor venue space and confirm reservation deposit",
+          "category": "venue",
+          "priority": "high",
+          "due_offset_days": 40,
+          "due_date": "2026-10-16",
+          "status": "todo",
+          "notes": "Ask for access hours, power outlets, and cleanup rules."
+        },
+        {
+          "id": "task-d5c4d247",
+          "task": "Design and dispatch digital or printed celebration invitations",
+          "category": "guests",
+          "priority": "high",
+          "due_offset_days": 35,
+          "due_date": "2026-10-21",
+          "status": "todo",
+          "notes": "Include RSVP deadline (at least 2 weeks before event) and dietary prompt."
+        },
+        {
+          "id": "task-2ac6da2b",
+          "task": "Review catering menu options and accommodate dietary preferences",
+          "category": "catering",
+          "priority": "high",
+          "due_offset_days": 30,
+          "due_date": "2026-10-26",
+          "status": "todo",
+          "notes": "Confirm vegetarian, vegan, and allergy safety accommodations."
+        },
+        {
+          "id": "task-2fb3d97a",
+          "task": "Order celebration centerpiece cake and dessert assortments",
+          "category": "catering",
+          "priority": "medium",
+          "due_offset_days": 25,
+          "due_date": "2026-10-31",
+          "status": "todo",
+          "notes": "Specify theme design, cake flavors, and pickup/delivery window."
+        },
+        {
+          "id": "task-f222bcb6",
+          "task": "Curate celebration music playlist or confirm performer/DJ details",
+          "category": "entertainment",
+          "priority": "medium",
+          "due_offset_days": 21,
+          "due_date": "2026-11-04",
+          "status": "todo",
+          "notes": "Select arrival, dining, toast, and high-energy dance tracks."
+        },
+        {
+          "id": "task-c9f5d458",
+          "task": "Audit RSVPs and compile final headcount & seating chart",
+          "category": "guests",
+          "priority": "high",
+          "due_offset_days": 14,
+          "due_date": "2026-11-11",
+          "status": "todo",
+          "notes": "Directly follow up with any outstanding pending invitees."
+        },
+        {
+          "id": "task-51a586c1",
+          "task": "Purchase themed decorations, table runners, and lighting supplies",
+          "category": "decor",
+          "priority": "medium",
+          "due_offset_days": 10,
+          "due_date": "2026-11-15",
+          "status": "todo",
+          "notes": "Match atmosphere 'festive and joyful' and color accents."
+        },
+        {
+          "id": "task-d71c4b2b",
+          "task": "Send final guaranteed attendance number to catering team",
+          "category": "catering",
+          "priority": "high",
+          "due_offset_days": 7,
+          "due_date": "2026-11-18",
+          "status": "todo",
+          "notes": "Prevent food shortage or costly over-ordering."
+        },
+        {
+          "id": "task-71894d42",
+          "task": "Assemble guest favor bags, photo props, and print schedule notes",
+          "category": "logistics",
+          "priority": "low",
+          "due_offset_days": 3,
+          "due_date": "2026-11-22",
+          "status": "todo",
+          "notes": "Designate a secure storage box for event transport."
+        },
+        {
+          "id": "task-8ca5c9cc",
+          "task": "Pack celebration emergency kit (scissors, tape, chargers, safety pins)",
+          "category": "logistics",
+          "priority": "medium",
+          "due_offset_days": 1,
+          "due_date": "2026-11-24",
+          "status": "todo",
+          "notes": "Essential for quick troubleshooting on event day."
+        },
+        {
+          "id": "task-08de9fb0",
+          "task": "Execute event day timeline: supervise setup, welcome guests, enjoy!",
+          "category": "logistics",
+          "priority": "high",
+          "due_offset_days": 0,
+          "due_date": "2026-11-25",
+          "status": "todo",
+          "notes": "Assign trusted co-host to help manage timings."
+        }
+      ],
+      "guests": [
+        {
+          "id": "guest-da10c650",
+          "name": "Maya Lin",
+          "rsvp_status": "attending",
+          "plus_ones": 1,
+          "dietary_requirements": [],
+          "accessibility_needs": "Prefers ground-floor seating",
+          "is_child": false
+        },
+        {
+          "id": "guest-a24633cc",
+          "name": "Carlos Rivera",
+          "rsvp_status": "attending",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-34fc719b",
+          "name": "Aisha Khan",
+          "rsvp_status": "attending",
+          "plus_ones": 1,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-2a1f1ec3",
+          "name": "Liam & Noah O'Connor",
+          "rsvp_status": "attending",
+          "plus_ones": 2,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": true
+        },
+        {
+          "id": "guest-ac37993b",
+          "name": "Sophie Dubois",
+          "rsvp_status": "tentative",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-3ce2a270",
+          "name": "Jordan Smith",
+          "rsvp_status": "attending",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-7d994e13",
+          "name": "Elena Rostova",
+          "rsvp_status": "invited",
+          "plus_ones": 1,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        },
+        {
+          "id": "guest-f4c1aa2d",
+          "name": "Marcus Vance",
+          "rsvp_status": "declined",
+          "plus_ones": 0,
+          "dietary_requirements": [],
+          "accessibility_needs": "",
+          "is_child": false
+        }
+      ],
+      "recommendations": [
+        {
+          "id": "rec-bbfa839f",
+          "category": "theme",
+          "title": "Future Bright & Academy Midnight",
+          "description": "Navy blue, metallic gold/silver, custom milestone banners, and graduation cap photo elements.",
+          "reason": "Proudly celebrates academic achievement with vibrant energy and plenty of photo-ready corners.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": true
+        },
+        {
+          "id": "rec-d3ff26d8",
+          "category": "food_drink",
+          "title": "Interactive Food Stations / Hot Buffet",
+          "description": "Two warm entr\u00e9e selections (e.g., roasted chicken breast and artisan pasta) accompanied by fresh seasonal salads and signature mocktail/cocktail.",
+          "reason": "At USD 36.6/guest, buffet service delivers hot, substantial meals while allowing easy accommodation of dietary preferences.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": false
+        },
+        {
+          "id": "rec-bd9ccb1e",
+          "category": "decorations",
+          "title": "Statement Welcome Arch & Coordinated Tablescapes",
+          "description": "Professional floral arch, custom laser-cut name sign, satin table runners, and low-profile floral centerpieces.",
+          "reason": "Creates an unforgettable first impression as guests enter the venue, with zero setup stress on event morning.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": false
+        },
+        {
+          "id": "rec-3598aa12",
+          "category": "activities",
+          "title": "Curated Memory Timeline & Crowd-Pleaser Music",
+          "description": "Interactive Polaroid guestbook with personalized notes, custom celebration trivia, and a transition to high-energy dance floor.",
+          "reason": "Builds emotional connection and creates lasting tangible mementos of the celebration.",
+          "estimated_cost_tier": "$$",
+          "is_diy_friendly": true
+        }
+      ],
+      "identified_constraints": [],
+      "feasibility_flags": [],
+      "alternatives": [],
+      "ai_mode_used": "deterministic_engine",
+      "created_at": "2026-10-28T00:55:33.771702",
+      "updated_at": "2026-10-28T01:30:02.397164"
+    }
+  }
+]

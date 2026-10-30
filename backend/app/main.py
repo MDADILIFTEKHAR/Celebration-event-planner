@@ -61,6 +61,46 @@ def health_check():
         "environment": settings.ENVIRONMENT
     }
 
+import os
+from pathlib import Path
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+# Check for frontend build directory
+FRONTEND_DIST_DIR = os.getenv(
+    "FRONTEND_DIST_DIR",
+    str(Path(__file__).resolve().parent.parent.parent / "frontend" / "dist")
+)
+
+if os.path.isdir(FRONTEND_DIST_DIR):
+    assets_dir = os.path.join(FRONTEND_DIST_DIR, "assets")
+    if os.path.isdir(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_frontend(full_path: str):
+        if full_path.startswith(("api/", "docs", "openapi.json", "redoc")):
+            return JSONResponse(status_code=404, content={"detail": "Not found"})
+        
+        target_file = os.path.join(FRONTEND_DIST_DIR, full_path)
+        if full_path and os.path.isfile(target_file):
+            return FileResponse(target_file)
+            
+        index_file = os.path.join(FRONTEND_DIST_DIR, "index.html")
+        if os.path.isfile(index_file):
+            return FileResponse(index_file)
+            
+        return JSONResponse(status_code=404, content={"detail": "Frontend index.html not found"})
+else:
+    @app.get("/", include_in_schema=False)
+    async def index_placeholder():
+        return {
+            "message": "Celebration Event Planner AI Backend is Running",
+            "docs": "/docs",
+            "health": "/api/health",
+            "note": "Frontend build directory not found. Please build the frontend."
+        }
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("backend.app.main:app", host=settings.HOST, port=settings.PORT, reload=True)
